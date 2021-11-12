@@ -8,10 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var users = UserProcess()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        NavigationView {
+            
+            List {
+                
+                ForEach(users.users, id: \.id) { user in
+                    
+                    NavigationLink(destination: UserView(user: user, users: users)) {
+                        VStack(alignment: .leading) {
+                            Text(user.name)
+                                .font(.headline)
+                            Text(String(user.age))
+                        }
+                        
+                    }
+                    
+                }
+                
+            }
+            .navigationTitle("UsersAndFriends")
+            
+        }
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

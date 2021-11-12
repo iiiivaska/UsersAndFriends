@@ -11,6 +11,8 @@
 		A8F9BCF7273E7BB700B17B68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9BCF6273E7BB700B17B68 /* ContentView.swift */; };
 		A8F9BCF9273E7BBC00B17B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9BCF8273E7BBC00B17B68 /* Assets.xcassets */; };
 		A8F9BCFC273E7BBC00B17B68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9BCFB273E7BBC00B17B68 /* Preview Assets.xcassets */; };
+		A8F9BD03273E7BDE00B17B68 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9BD02273E7BDE00B17B68 /* User.swift */; };
+		A8F9BD05273E8F2700B17B68 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9BD04273E8F2700B17B68 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A8F9BCF6273E7BB700B17B68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A8F9BCF8273E7BBC00B17B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8F9BCFB273E7BBC00B17B68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8F9BD02273E7BDE00B17B68 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A8F9BD04273E8F2700B17B68 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		A8F9BCF3273E7BB700B17B68 /* UsersAndFriends */ = {
 			isa = PBXGroup;
 			children = (
+				A8F9BD04273E8F2700B17B68 /* UserView.swift */,
 				A8F9BCF4273E7BB700B17B68 /* UsersAndFriendsApp.swift */,
 				A8F9BCF6273E7BB700B17B68 /* ContentView.swift */,
+				A8F9BD02273E7BDE00B17B68 /* User.swift */,
 				A8F9BCF8273E7BBC00B17B68 /* Assets.xcassets */,
 				A8F9BCFA273E7BBC00B17B68 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				A8F9BCF7273E7BB700B17B68 /* ContentView.swift in Sources */,
 				A8F9BCF5273E7BB700B17B68 /* UsersAndFriendsApp.swift in Sources */,
+				A8F9BD03273E7BDE00B17B68 /* User.swift in Sources */,
+				A8F9BD05273E8F2700B17B68 /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
